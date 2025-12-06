@@ -20,7 +20,7 @@ function GraphicDesign() {
         <div className="flex flex-col md:flex-row lg:flex-col  bg-[#FDF3F0] rounded-2xl overflow-hidden">
           <div className="h-fit">
             <img
-              src="/src/assets/graphic-design-01.png"
+              src="/graphic-design-01.png"
               className="h-full object-contain w-full "
               alt=""
             />
@@ -37,7 +37,7 @@ function GraphicDesign() {
         <div className="flex flex-col md:flex-row lg:flex-col  bg-[#FDF3F0] rounded-2xl overflow-hidden">
           <div className="h-fit">
             <img
-              src="/src/assets/graphic-design-02.png"
+              src="/graphic-design-02.png"
               className="h-full object-contain w-full "
               alt=""
             />
@@ -54,7 +54,7 @@ function GraphicDesign() {
         <div className="flex flex-col md:flex-row lg:flex-col  bg-[#FDF3F0] rounded-2xl overflow-hidden">
           <div className="h-fit">
             <img
-              src="/src/assets/graphic-design-03.png"
+              src="/graphic-design-03.png"
               className="h-full object-contain w-full "
               alt=""
             />

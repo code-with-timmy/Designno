@@ -20,7 +20,7 @@ function AppDesign() {
         <div className="flex flex-col md:flex-row lg:flex-col bg-[#FDF3F0]   rounded-2xl overflow-hidden">
           <div className="bg-[#2E3947] h-fit ">
             <img
-              src="/src/assets/app-design-01.png"
+              src="/app-design-01.png"
               className="h-full object-contain w-full "
               alt=""
             />
@@ -38,7 +38,7 @@ function AppDesign() {
         <div className="flex flex-col md:flex-row lg:flex-col bg-[#FDF3F0] rounded-2xl overflow-hidden">
           <div className=" bg-[#34B7A2] h-fit">
             <img
-              src="/src/assets/app-design-02.png"
+              src="/app-design-02.png"
               className="h-full object-contain w-full "
               alt=""
             />
@@ -56,7 +56,7 @@ function AppDesign() {
         <div className="flex flex-col md:flex-row lg:flex-col bg-[#FDF3F0] rounded-2xl overflow-hidden">
           <div className=" bg-[#3F2F83] fit">
             <img
-              src="/src/assets/app-design-03.png"
+              src="/app-design-03.png"
               className="h-full object-contain w-full "
               alt=""
             />
@@ -73,7 +73,7 @@ function AppDesign() {
         <div className="flex flex-col md:flex-row lg:flex-col bg-[#FDF3F0] rounded-2xl overflow-hidden">
           <div className=" bg-[#40125A] h-fit">
             <img
-              src="/src/assets/app-design-04.png"
+              src="/app-design-04.png"
               className="h-full object-contain w-full "
               alt=""
             />
@@ -90,7 +90,7 @@ function AppDesign() {
         <div className="flex flex-col md:flex-row lg:flex-col bg-[#FDF3F0] rounded-2xl overflow-hidden">
           <div className="bg-[#853A4D] h-fit">
             <img
-              src="/src/assets/app-design-05.png"
+              src="/app-design-05.png"
               className="h-full object-contain w-full "
               alt=""
             />

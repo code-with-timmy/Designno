@@ -20,7 +20,7 @@ function WebDesign() {
         <div className="flex flex-col md:flex-row lg:flex-col  bg-[#FDF3F0] rounded-2xl overflow-hidden">
           <div className="h-fit">
             <img
-              src="/src/assets/web-design-01.png"
+              src="/web-design-01.png"
               className="h-full object-contain w-full "
               alt=""
             />
@@ -37,7 +37,7 @@ function WebDesign() {
         <div className="flex flex-col  md:flex-row lg:flex-col bg-[#FDF3F0] rounded-2xl overflow-hidden">
           <div className="  h-fit">
             <img
-              src="/src/assets/web-design-02.png"
+              src="/web-design-02.png"
               className="h-full object-contain w-full"
               alt=""
             />
@@ -54,7 +54,7 @@ function WebDesign() {
         <div className="flex flex-col  md:flex-row lg:flex-col bg-[#FDF3F0] rounded-2xl overflow-hidden">
           <div className="  h-fit">
             <img
-              src="/src/assets/web-design-03.png"
+              src="/web-design-03.png"
               className="h-full object-contain w-full"
               alt=""
             />
@@ -72,7 +72,7 @@ function WebDesign() {
         <div className="flex flex-col  md:flex-row lg:flex-col bg-[#FDF3F0] rounded-2xl overflow-hidden">
           <div className="h-fit">
             <img
-              src="/src/assets/web-design-04.png"
+              src="/web-design-04.png"
               className="h-full object-contain w-full"
               alt=""
             />
@@ -89,7 +89,7 @@ function WebDesign() {
         <div className="flex flex-col  md:flex-row lg:flex-col bg-[#FDF3F0] rounded-2xl overflow-hidden">
           <div className="  h-fit">
             <img
-              src="/src/assets/web-design-05.png"
+              src="/web-design-05.png"
               className="h-full object-contain w-full"
               alt=""
             />
@@ -106,7 +106,7 @@ function WebDesign() {
         <div className="flex flex-col  md:flex-row lg:flex-col bg-[#FDF3F0] rounded-2xl overflow-hidden">
           <div className="  h-fit">
             <img
-              src="/src/assets/web-design-06.png"
+              src="/web-design-06.png"
               className="h-full object-contain w-full"
               alt=""
             />

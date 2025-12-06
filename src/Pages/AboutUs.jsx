@@ -6,11 +6,7 @@ function AboutUs() {
     <section className="flex flex-col gap-10 mx-auto md:w-[80%]">
       <div className="grid grid-cols-1 md:rounded-2xl overflow-hidden lg:grid-cols-3">
         <div className="w-full h-[400px] max-sm:h-fit lg:h-full overflow-hidden lg:col-span-1 lg:order-2">
-          <img
-            src="/src/assets/about-us-01.png"
-            alt=""
-            className="w-full h-full"
-          />
+          <img src="/about-us-01.png" alt="" className="w-full h-full" />
         </div>
         <div className=" relative overflow-hidden bg-peach flex flex-col justify-center text-center text-white py-20 px-4 gap-4 lg:col-span-2 lg:order-1 ">
           <span className="big-circle"></span>
@@ -26,11 +22,7 @@ function AboutUs() {
       </div>
       <div className="grid grid-cols-1 md:rounded-2xl overflow-hidden lg:grid-cols-3">
         <div className="w-full h-[400px] max-sm:h-fit overflow-hidden  lg:col-span-1 lg:order-1 lg:h-full">
-          <img
-            src="/src/assets/about-us-02.png"
-            alt=""
-            className="w-full h-full"
-          />
+          <img src="/about-us-02.png" alt="" className="w-full h-full" />
         </div>
         <div className="bg-[#FDF3F0] flex flex-col justify-center text-center text-dark-grey py-20 px-4 gap-4 lg:col-span-2 lg:order-2 ">
           <h3 className="font-medium text-[32px] text-peach">
@@ -54,11 +46,7 @@ function AboutUs() {
       <Locations />
       <div className="grid grid-cols-1 md:rounded-2xl overflow-hidden lg:grid-cols-3 mb-30">
         <div className="w-full h-[400px] max-sm:h-fit lg:h-full  overflow-hidden lg:col-span-1 lg:order-2">
-          <img
-            src="/src/assets/about-us-03.png"
-            alt=""
-            className="w-full h-full"
-          />
+          <img src="/about-us-03.png" alt="" className="w-full h-full" />
         </div>
         <div className="bg-[#FDF3F0] flex flex-col justify-center text-center text-dark-grey py-20 px-4 gap-4  lg:col-span-2 lg:order-1  ">
           <h3 className="font-medium text-[32px] text-peach">The real deal</h3>
