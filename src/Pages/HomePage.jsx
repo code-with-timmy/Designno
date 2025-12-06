@@ -10,7 +10,7 @@ function HomePage() {
     <>
       <Header />
 
-      <main className="relative flex flex-col gap-40 max-sm:gap-20 w-full md:w-[90%] mx-auto">
+      <main className="relative flex flex-col gap-40 max-sm:gap-20 max-sm:w-full w-[80%] mx-auto">
         <div className="relative  bg-peach md:rounded-md w-full square-with-circle overflow-hidden pt-10">
           <div className="flex items-center max-md:flex-col justify-between w-[80%] gap-5 h-full mx-auto">
             <div className="flex gap-10 max-sm:gap-4   flex-col w-[50%] max-sm:w-[90%] max-sm:mt-5">
@@ -31,10 +31,9 @@ function HomePage() {
             </div>
           </div>
         </div>
-        <div className="w-[90%] mx-auto">
-          <ExploreOptions />
-          <Features />
-        </div>
+
+        <ExploreOptions />
+        <Features />
       </main>
       <Footer />
     </>

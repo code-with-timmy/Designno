@@ -7,7 +7,7 @@ function ExploreOptions() {
   return (
     <section className="explor h-full my-auto gap-10 grid lg:grid-cols-2 max-sm:grid-cols-1 md:grid-rows-2 auto-rows-[250px] text-white">
       <div
-        className={`h-full w-full bg-[url('/src/assets/webDesign.png')] bg-cover ${
+        className={`h-full w-full max-sm:w-[90%] max-sm:mx-auto bg-[url('/src/assets/webDesign.png')] bg-cover ${
           currentSelectedOption !== "app-design" &&
           currentSelectedOption !== "graphic-design"
             ? "md:row-span-2"
@@ -32,7 +32,7 @@ function ExploreOptions() {
         </div>
       </div>
       <div
-        className={`h-full w-full bg-[url('/src/assets/appDesign.png')] bg-cover rounded-[10px] ${
+        className={`h-full w-full max-sm:w-[90%] max-sm:mx-auto bg-[url('/src/assets/appDesign.png')] bg-cover rounded-[10px] ${
           currentSelectedOption === "app-design" && "hidden"
         }`}
       >
@@ -52,7 +52,7 @@ function ExploreOptions() {
         </div>
       </div>
       <div
-        className={`h-full w-full bg-[url('/src/assets/graphicDesign.png')] bg-cover rounded-[10px] ${
+        className={`h-full w-full max-sm:w-[90%] max-sm:mx-auto bg-[url('/src/assets/graphicDesign.png')] bg-cover rounded-[10px] ${
           currentSelectedOption === "graphic-design" && "hidden"
         }`}
       >
