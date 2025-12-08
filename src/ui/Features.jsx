@@ -4,8 +4,8 @@ import friend from "../assets/friend.svg";
 
 function Features() {
   return (
-    <section className="grid grid-cols-3 max-sm:grid-cols-1 gap-10 mb-20">
-      <div className="flex flex-col max-sm:flex-col items-center gap-2.5 max-sm:gap-5">
+    <section className="grid lg:grid-cols-3 max-md:grid-cols-1 md:grid-cols-1 gap-10 mb-20">
+      <div className="flex lg:flex-col max-sm:flex-col max-md:flex-row md:flex-row items-center gap-2.5 max-sm:gap-5">
         <img src={passi} alt="" className="h-37 w-37" />
         <div className="flex flex-col max-sm:text-center md:items-center gap-3">
           <h2 className="text-dark-grey font-medium text-[20px]  tracking-[6px]">
@@ -18,7 +18,7 @@ function Features() {
           </p>
         </div>
       </div>
-      <div className="flex flex-col max-sm:flex-col max-sm:text-center items-center gap-2.5 max-sm:gap-5">
+      <div className="flex lg:flex-col max-sm:flex-col max-md:flex-row md:flex-row max-sm:text-center items-center gap-2.5 max-sm:gap-5">
         <img src={resour} alt="" className="h-37 w-37" />
         <div className="flex flex-col md:items-center gap-3">
           <h2 className="text-dark-grey font-medium text-[20px]  tracking-[6px]">
@@ -32,7 +32,7 @@ function Features() {
         </div>
       </div>
 
-      <div className="flex flex-col max-sm:flex-col max-sm:text-center items-center gap-2.5 max-sm:gap-5">
+      <div className="flex lg:flex-col max-sm:flex-col max-md:flex-row md:flex-row max-sm:text-center items-center gap-2.5 max-sm:gap-5">
         <img src={friend} alt="" className="h-37 w-37" />
         <div className="flex flex-col md:items-center gap-3">
           <h2 className="text-dark-grey font-medium text-[20px]  tracking-[6px]">

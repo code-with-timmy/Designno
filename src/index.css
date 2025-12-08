@@ -88,11 +88,11 @@
   }
 
   .square-with-circle {
-    @apply h-[calc(100vh-120px)] w-full max-sm:h-[500px];
+    @apply lg:h-[calc(100vh-120px)] w-full max-md:h-[500px] md:h-screen;
   }
 
   .explor {
-    @apply h-[calc(100vh-50px)] w-full max-sm:h-fit;
+    @apply lg:h-[calc(100vh-50px)] w-full max-sm:h-fit;
   }
 
   .to-center {
@@ -103,7 +103,7 @@
   }
 
   .circle {
-    @apply w-[300px]  max-sm:w-[200px] max-sm:h-[200px];
+    @apply w-[300px]  max-sm:w-[250px] max-sm:h-[200px];
     position: absolute;
 
     background: linear-gradient(

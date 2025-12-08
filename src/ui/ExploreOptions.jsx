@@ -5,7 +5,7 @@ import { useCurrentPath } from "../hooks/useCurrentPath";
 function ExploreOptions() {
   const { currentSelectedOption } = useCurrentPath();
   return (
-    <section className="explor h-full my-auto gap-10 grid lg:grid-cols-2 max-sm:grid-cols-1 md:grid-rows-2 auto-rows-[250px] text-white">
+    <section className="explor h-fit my-auto gap-10 grid lg:grid-cols-2 max-md:grid-cols-1 md:grid-rows-1 auto-rows-[250px] text-white">
       <div
         className={`h-full w-full max-sm:w-[90%] max-sm:mx-auto bg-[url('/webDesign.png')] bg-cover ${
           currentSelectedOption !== "app-design" &&

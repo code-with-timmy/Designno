@@ -13,7 +13,7 @@ function Footer() {
       className={`relative w-full bg-black pt-30 pb-10  ${
         currentSelectedOption === "contact-us"
           ? "max-sm:pt-10 max-md:mt-0"
-          : "max-sm:pt-60 max-md:mt-50 max-md:mt-60 lg:mt-60  md:pt-40"
+          : "max-sm:pt-60 max-md:mt-50 md:mt-80 max-md:mt-60 lg:mt-60  md:pt-40"
       }`}
     >
       <div
